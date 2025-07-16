@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="email">Text:</label>
+        <input type="text" id="email" placeholder="Enter your name" required><br>
+        <label for="pass">Password:</label>
+        <input id="pass" type="password"><br>
+        <label for="Tareek">Date:</label>
+        <input id="Tareek" type="date"><br>
+        <label for="fyle">File:</label>
+        <input id="fyle" type="file"><br>
+        Color: <input type="color"><br>
+        Price Range <input type="range"><br>
+        <!-- Radio -->
+        <label for="m">Male:</label>
+        <input id="m" type="radio" name="gender" value="male"> <br>
+        <label for="fm">female:</label>
+        <input id="fm" type="radio" name="gender" value="female"><br>
+        <label for="o">Others:</label>
+        <input id="o" type="radio" name="gender" value="other"><br>
+        <!-- Checkbox -->
+        <label for="a">Apple:</label>
+        <input id="a" type="checkbox" name="fruits" value="apple"> <br>
+        <label for="b">Banana:</label>
+        <input id="b" type="checkbox" name="fruits" value="banana"> <br>
+        <label for="or">Orange:</label>
+        <input id="or" type="checkbox" name="fruits" value="orange"> <br>
+
+        <!-- Select -->
+        <label for="fruits">Choose a fruit: </label>
+        <select name="fruits" id="fruits">
+            <option value="Apple">Apple</option>
+            <option value="Mango">Mango</option>
+            <option value="Banana">Banana</option>
+        </select> <br> 
+
+        <!-- textarea -->
+        <textarea name="Para" id="par" cols="30" rows="5">
+            Likho Jo Likhna
+        </textarea><br>
+        <input type="submit" value="submit"><br>
+        Poke me: <input type="button" value="Click me!">
+    </form>
+</body>
+</html>
